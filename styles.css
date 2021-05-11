@@ -1,0 +1,78 @@
+
+*{
+  box-sizing : border-box;
+  margin:0;
+  padding:0;
+}
+
+body
+{
+    background-image: url("./tit.jpg");
+    background-position: center;
+    font-family: sans-serif;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+}
+.container
+{
+	 width: 300px;
+	 overflow: hidden;
+	 margin:50px auto 0 auto;	 
+}
+
+.container .box
+{
+	 width: 100px;
+	 float : left;
+     height:100px;
+     border : 2px solid #000;
+     transition : all .25s ease-in-out;
+     font-family: sans-serif;
+     font-size:85px;
+     text-align : center;
+     line-height : 100px;
+     cursor : pointer;	 
+}
+
+.container .box:hover
+{
+	 background : rgb(233 30 96);
+	 color : #fff;
+}
+
+button
+{
+	 background: #009696;
+	 color: #fff;
+	 font-weight : bold;
+	 border : 2px solid #795548;
+	 cursor : pointer;
+	 width : 200px;
+	 height : 40px;
+	 font-size : 22px;
+	 display:block;
+	 margin : 10px auto;
+}
+
+.container span 
+{
+	 width : 100%;
+	 display : block;
+	 text-align : center;
+	 font-family : sans-serif;
+	 color: #fff;
+	 font-size:25px;
+	 background : #008f96;
+}
+.win
+{
+	 background : #ff5722b3;
+	 color : #fff;
+}
+.copright
+{
+	 font-family : sans-serif;
+	 text-align : center;
+	 font-size : 18px;
+}
